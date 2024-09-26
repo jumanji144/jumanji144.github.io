@@ -26,6 +26,7 @@ kramdown:
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-tagging
 
 # Custom vars
 version:             1.2.0
