@@ -28,6 +28,9 @@ plugins:
   - jekyll-paginate
   - jekyll-tagging
 
+tag_page_layout: tag_page
+tag_page_dir: tag
+
 # Custom vars
 version:             1.2.0
 google_analytics_id: #UA-XXXX-Y
