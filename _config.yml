@@ -3,7 +3,7 @@ title:               "Jumanji144's Blog"
 tagline:             'Java and C++ developer'
 description:         'I post blogs featuring tutorials on jvm internals and some other things'
 url:                 https://jumanji144.github.io
-baseurl:             'https://jumanji144.github.io'
+baseurl:             ''
 paginate:            5
 permalink:           pretty
 
