@@ -5,4 +5,18 @@ layout: default
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
+
+  <!-- if the page has a date, display it -->
+  {% if page.date %}
+    <span class="page-date">{{ page.date | date_to_string }}</span>
+  {% endif %}
+
+  <!-- if the page has tags, display them -->
+  {% if page.tags.size > 0 %}
+    <div class="page-tags">
+      {% for tag in page.tags %}
+        <a href="{{ '/tags/' | absolute_url }}{{ tag | slugify }}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
 </div>

@@ -1,6 +1,6 @@
 # Setup
 title:               "Jumanji144's Blog"
-tagline:             'Java and C++ developer'
+tagline:             'Java and C++ development'
 description:         'I post blogs featuring tutorials on jvm internals and some other things'
 url:                 https://jumanji144.github.io
 baseurl:             ''
@@ -26,10 +26,10 @@ kramdown:
 # Gems
 plugins:
   - jekyll-paginate
-  - jekyll-tagging
+  - jekyll-tagging-lite
 
 tag_page_layout: tag_page
-tag_page_dir: tag
+tag_page_dir: tags
 
 # Custom vars
 version:             1.2.0
